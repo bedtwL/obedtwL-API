@@ -1,5 +1,11 @@
 ## obedtwL-API
 A API for C# Developer
+| API Version |  Release/Prerelease Code  |
+| ----------| ----------------------------------------|
+| v0.0.0.1 ~ v0.0.0.9999| Beta Release|
+| v0.0.1.1 ~ v0.0.9999.9999| PreRelease|
+| v0.1.0.1 ~ | Release|
+| v9998.0.0.0 ~ 9998.9999.9999.9999| Special Release/PreRelease|
 
 ## Reqiredment
 
