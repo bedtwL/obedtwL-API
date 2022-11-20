@@ -1,6 +1,7 @@
 # obedtwL API
 
-[![Discord](https://img.shields.io/discord/869237470565392384?label=discord)](https://discord.gg/jAcdpzwW7d)
+[![Discord](https://img.shields.io/discord/1043885421303709831?label=Discord)](https://discord.gg/jAcdpzwW7d)
+[![Release](https://img.shields.io/github/v/release/bedneednoob/obedtwL-api?include_prereleases)](https://github.com/BedNeedNoob/obedtwL-API/releases)
 A API for C# Developer
 | API Version |  Release/Prerelease Code  |
 | ----------| ----------------------------------------|
@@ -23,6 +24,9 @@ Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll
 | obedtwLAPI.oWeb.Youtube   | https://www.nuget.org/packages/YoutubeExplode|
 | obedtwLAPI.oWeb.YoutubeBrowser   | https://www.nuget.org/packages/Microsoft.Web.WebView2 and https://www.nuget.org/packages/YoutubeExplode|
 
+| Addon Make What class more better |  Link   |
+| ----------| ------------------------------------------------|
+| obedtwLAPI.oUI.Video | https://www.nuget.org/packages/YoutubeExplode|
 
  ## Beta Class
  | Beta Class Name | Issue |
