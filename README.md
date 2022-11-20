@@ -1,6 +1,7 @@
 # obedtwL API
 
-[![Discord](https://img.shields.io/discord/869237470565392384?label=discord)](https://discord.gg/jAcdpzwW7d)
+[![Discord](https://img.shields.io/discord/1043885421303709831?label=Discord)](https://discord.gg/jAcdpzwW7d)
+[![Release](https://img.shields.io/github/v/release/bedneednoob/obedtwL-api?include_prereleases)](https://github.com/BedNeedNoob/obedtwL-API/releases)
 A API for C# Developer
 | API Version |  Release/Prerelease Code  |
 | ----------| ----------------------------------------|
@@ -13,16 +14,20 @@ A API for C# Developer
 ## Reqiredment
 
 This is ONLY reqired if the class that you want to use is in below
-You can download all dll from dll-pack.zip on Release
-Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll-pack.zip
+You can download all dll from [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)| in below
+Waring: [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)| will not update to newest dll and i dont own the dll in [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)
+[Download Dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)
 
 | Addon Make What class work |  Link   |
 | ----------| ------------------------------------------------|
 | obedtwLAPI.oPlugins.Video   | https://www.nuget.org/packages/YoutubeExplode|
-| obedtwLAPI.oUI.oVideoView     | https://www.nuget.org/packages/Vlc.DotNet.Forms |
+| obedtwLAPI.oUI.oVideoView     | https://www.nuget.org/packages/Vlc.DotNet.Forms And some setup (this dll is not setup in [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)|
 | obedtwLAPI.oWeb.Youtube   | https://www.nuget.org/packages/YoutubeExplode|
 | obedtwLAPI.oWeb.YoutubeBrowser   | https://www.nuget.org/packages/Microsoft.Web.WebView2 and https://www.nuget.org/packages/YoutubeExplode|
 
+| Addon Make What class more better |  Link   |
+| ----------| ------------------------------------------------|
+| obedtwLAPI.oUI.Video | https://www.nuget.org/packages/YoutubeExplode|
 
  ## Beta Class
  | Beta Class Name | Issue |
