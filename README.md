@@ -1,4 +1,6 @@
 # obedtwL API
+
+[![Discord](https://img.shields.io/discord/869237470565392384?label=discord)](https://discord.gg/jAcdpzwW7d)
 A API for C# Developer
 | API Version |  Release/Prerelease Code  |
 | ----------| ----------------------------------------|
