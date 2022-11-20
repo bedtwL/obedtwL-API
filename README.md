@@ -21,4 +21,4 @@ This is ONLY reqired if the class that you want to use is in below
 
 
  ## Beta Class
- |Speech API|Some thing may working weird|
+ | Speech API |Some thing may working weird |
