@@ -12,6 +12,7 @@ A API for C# Developer
 
 This is ONLY reqired if the class that you want to use is in below
 You can download all dll from dll-pack.zip on Release
+Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll-pack.zip
 
 | Addon Make What class work |  Link   |
 | ----------| ------------------------------------------------|
