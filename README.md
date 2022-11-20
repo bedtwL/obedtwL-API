@@ -11,6 +11,7 @@ A API for C# Developer
 ## Reqiredment
 
 This is ONLY reqired if the class that you want to use is in below
+You can download all dll from dll-pack.zip on Release
 
 | Addon Make What class work |  Link   |
 | ----------| ------------------------------------------------|
