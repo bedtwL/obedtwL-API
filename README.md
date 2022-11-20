@@ -16,7 +16,7 @@ A API for C# Developer
 This is ONLY reqired if the class that you want to use is in below
 You can download all dll from [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)| in below
 Waring: [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)| will not update to newest dll and i dont own the dll in [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)
-[Download Dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)|
+[Download Dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)
 
 | Addon Make What class work |  Link   |
 | ----------| ------------------------------------------------|
