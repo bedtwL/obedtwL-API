@@ -65,30 +65,38 @@ Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll
    #### obedtwLAPI.oConsole.WriteColorLine(string text,parms (string str,ConsoleColor color))
    Write Colored Line
       
-   ```csharp
-   obedtwLAPI.oConsole.WriteColorLine("This is Message have color",("{Message}",ConsoleColor.Red),("{color}",ConsoleColor.Blue));
-   //Make "Message" text Color into Red and make "color" text into blue
-```
+ 
+    obedtwLAPI.oConsole.WriteColorLine("This is Message have color",("{Message}",ConsoleColor.Red),("{color}",ConsoleColor.Blue));
+    //Make "Message" text Color into Red and make "color" text into blue
+
    #### obedtwLAPI.oConsole.WriteColor(string text,parms (string str,ConsoleColor color))
    Write Colored Text
       
-   ```csharp
-   obedtwLAPI.oConsole.WriteColor("This is Message have color",("{Message}",ConsoleColor.Red),("{color}",ConsoleColor.Blue));
-   //Make "Message" text Color into Red and make "color" text into blue
-```
+  
+    obedtwLAPI.oConsole.WriteColor("This is Message have color",("{Message}",ConsoleColor.Red),("{color}",ConsoleColor.Blue));
+    //Make "Message" text Color into Red and make "color" text into blue
+
    ### obedtwLAPI.oBasic.bedh Class
    
    #### obedtwL.oBasic.bedh.SendCommand(string terminal_command)
-   ```csharp
+
     //Old API 
     obedtwL.oBasic.bedh.SendCommand("echo hi");
     //Output: hi
-```
+
    #### obedtwL.oBasic.bedh.Bedh(string[] args)
-   ```csharp
+
     //Old API 
     //Setting Args for bedh Console
     string[] settings=new string[] {};
     obedtwL.oBasic.bedh.Bedh(settings);
     //Bind Console into 
-```
+
+   ### obedtwLAPI.Speech.SpeechAPI Class
+   
+   #### obedtwLAPI.Speech.SpeechAPI.Said(string text)
+    //Init API
+    var SpeechAPI = new obedtwLAPI.Speech.SpeechAPI();
+    SpeechAPI.Said("HI");
+    //Say HI Sound
+   
