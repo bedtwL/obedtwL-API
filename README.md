@@ -38,14 +38,21 @@ Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll
    obedtwLAPI.Info.ShowInfo(); //Shows up API & System infomation 
 ```
    ### obedtwLAPI.oWeb.Youtube Class
-   
-   #### obedtwLAPI.oWeb.Youtube.GetVideoDownloadUrl(string Url)
-   Download Video From Youtube:
-   
+   #### obedtwLAPI.oWeb.Youtube.DownloadVideoAsync(string YoutubeURL,string FileName)
+   Download Youtube Video
    ```csharp
    var Youtube = new obedtwLAPI.oWeb.Youtube();
-   string URL = Youtube.GetVideoDownloadUrl(YoutubeVideoUrl); //Youtube Video URL is the url that you want to get download url
-   obedtwLAPI.oWeb.Download(URL,"Video.mp4"); //Video.mp4 is the filename that you want to save
+   Youtube.DownloadVideo(string YoutubeURL,string FileName)
+   //Youtube Video URL is the url that you want to get download url
+   //Video.mp4 is the filename that you want to save
+```
+   #### obedtwLAPI.oWeb.Youtube.DownloadVideoAsync(string YoutubeURL,string FileName)
+   Download Youtube Video Async
+   ```csharp
+   var Youtube = new obedtwLAPI.oWeb.Youtube();
+   Youtube.DownloadVideoAsync(string YoutubeURL,string FileName)
+   //Youtube Video URL is the url that you want to get download url
+   //Video.mp4 is the filename that you want to save
 ```
    ### obedtwLAPI.oWeb.YoutubeBrowser Class
    
