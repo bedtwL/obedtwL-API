@@ -47,7 +47,19 @@ Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll
    string URL = Youtube.GetVideoDownloadUrl(YoutubeVideoUrl); //Youtube Video URL is the url that you want to get download url
    obedtwLAPI.oWeb.Download(URL,"Video.mp4"); //Video.mp4 is the filename that you want to save
 ```
- 
+   ### obedtwLAPI.oWeb.YoutubeBrowser Class
+   
+   ```csharp
+   var YoutubeBrowser = new obedtwLAPI.oWeb.YoutubeBrowser();
+   YoutubeBrowser.ShowDialog();
+   while(!(YoutubeBrowser.UserSelectVideoURL==""))
+   {
+   Youtube.GetVideoDownloadUrl(YoutubeBrowser.UserSelectVideoURL); //Youtube Video URL is the url that you want to get download url
+   obedtwLAPI.oWeb.Download(URL,"Video.mp4"); //Video.mp4 is the filename that you want to save
+   }
+   
+```
+   
    ### obedtwLAPI.oConsole Class
    
    #### obedtwLAPI.oConsole.WriteColorLine(string text,parms (string str,ConsoleColor color))
