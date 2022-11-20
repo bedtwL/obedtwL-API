@@ -27,3 +27,8 @@ Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll
  |---------|------------------|
  | obedtwLAPI.Speech.SpeechAPI | Some thing may working weird |
 
+ ## API Usage:
+   ####obedtwLAPI.Info.ShowInfo()
+   ```csharp
+   obedtwLAPI.Info.ShowInfo(); //Shows up API & System infomation 
+```
