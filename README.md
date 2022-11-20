@@ -3,6 +3,7 @@
 [![Discord](https://img.shields.io/discord/1043885421303709831?label=Discord)](https://discord.gg/jAcdpzwW7d)
 [![Release](https://img.shields.io/github/v/release/bedneednoob/obedtwL-api?include_prereleases)](https://github.com/BedNeedNoob/obedtwL-API/releases)
 A API for C# Developer
+
 | API Version |  Release/Prerelease Code  |
 | ----------| ----------------------------------------|
 | v0.0.0.1 ~ v0.0.0.1360| Console API Beta Release|
