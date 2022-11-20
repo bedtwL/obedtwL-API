@@ -25,4 +25,4 @@ Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll
  ## Beta Class
  | Beta Class Name | Issue |
  |---------|------------------|
- | Speech API | Some thing may working weird |
+ | obedtwLAPI.Speech.SpeechAPI | Some thing may working weird |
