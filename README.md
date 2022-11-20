@@ -101,3 +101,24 @@ Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll
     SpeechAPI.Said("HI");
     //Say HI Sound
  ```
+ 
+   ### obedtwLAPI.oConverter Class
+   
+   #### obedtwLAPI.oConverter.BoolToString(bool Bool)
+   ```csharp
+   
+    obedtwLAPI.oConverter.BoolToString(true)
+    //Return "Yes"
+    obedtwLAPI.oConverter.BoolToString(false)
+    //Return "No"
+    obedtwLAPI.oConverter.BoolToString(null)
+    //Return "Unknow"
+ ``` 
+   #### obedtwLAPI.oConverter.Blur(Bitmap image, Int32 blurSize)
+   ```csharp
+   obedtwLAPI.oConverter.Blur(new Bitmap("C:\Image\Your-Image-Path.png"), 10); //Get Bitmap with Blur Size 10
+``` 
+   #### obedtwLAPI.oConverter.ToFriendllyTime(long num)
+   ```csharp
+   obedtwLAPI.oConverter.ToFriendllyTime(60000); //Return: "01:00"
+``` 
