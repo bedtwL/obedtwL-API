@@ -75,6 +75,8 @@ Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll
    #### obedtwL.oBasic.bedh.Bedh(string[] args)
    ```csharp
     //Old API 
-    obedtwL.oBasic.bedh.Bedh();
+    //Setting Args for bedh Console
+    string[] settings=new string[] {};
+    obedtwL.oBasic.bedh.Bedh(settings);
     //Bind Console into 
 ```
