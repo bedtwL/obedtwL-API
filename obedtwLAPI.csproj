@@ -182,6 +182,12 @@
     <Compile Include="oUI\oVideoView.Designer.cs">
       <DependentUpon>oVideoView.cs</DependentUpon>
     </Compile>
+    <Compile Include="oUI\Video.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="oUI\Video.designer.cs">
+      <DependentUpon>Video.cs</DependentUpon>
+    </Compile>
     <Compile Include="oWeb\oWeb.cs" />
     <Compile Include="oWeb\Youtube.cs" />
     <Compile Include="oWeb\YoutubeBrowser.cs">
@@ -197,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="oUI\oVideoView.resx">
       <DependentUpon>oVideoView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="oUI\Video.resx">
+      <DependentUpon>Video.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="oWeb\YoutubeBrowser.resx">
       <DependentUpon>YoutubeBrowser.cs</DependentUpon>
