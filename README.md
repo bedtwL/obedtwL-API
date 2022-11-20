@@ -4,9 +4,9 @@ A API for C# Developer
 | ----------| ----------------------------------------|
 | v0.0.0.1 ~ v0.0.0.1360| Console API Beta Release|
 | v0.0.0.1361 ~ v0.0.0.9999| Beta Release|
-| v0.0.1.1 ~ v0.0.9999.9999| PreRelease|
-| v0.1.0.1 ~ | Release|
-| v9998.0.0.0 ~ 9998.9999.9999.9999| Special Release/PreRelease|
+| v0.0.1.0 ~ v0.0.9999.9999| PreRelease|
+| v0.1.0.0 ~ v9997.9999.9999.9999 and v9999.0.0.0 ~ | Release|
+| v9998.0.0.0 ~ v9998.9999.9999.9999| Special Release/PreRelease|
 
 ## Reqiredment
 
@@ -21,4 +21,6 @@ This is ONLY reqired if the class that you want to use is in below
 
 
  ## Beta Class
- | Speech API |Some thing may working weird |
+ | Beta Class Name | Issue |
+ |---------|------------------|
+ | Speech API | Some thing may working weird |
