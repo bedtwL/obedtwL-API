@@ -47,7 +47,7 @@ Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll
    string URL = Youtube.GetVideoDownloadUrl(YoutubeVideoUrl); //Youtube Video URL is the url that you want to get download url
    obedtwLAPI.oWeb.Download(URL,"Video.mp4"); //Video.mp4 is the filename that you want to save
 ```
-
+ 
    ### obedtwLAPI.oConsole Class
    
    #### obedtwLAPI.oConsole.WriteColorLine(string text,parms (string str,ConsoleColor color))
@@ -63,4 +63,18 @@ Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll
    ```csharp
    obedtwLAPI.oConsole.WriteColor("This is Message have color",("{Message}",ConsoleColor.Red),("{color}",ConsoleColor.Blue));
    //Make "Message" text Color into Red and make "color" text into blue
+```
+   ### obedtwLAPI.oBasic.bedh Class
+   
+   #### obedtwL.oBasic.bedh.SendCommand(string terminal_command)
+   ```csharp
+    //Old API 
+    obedtwL.oBasic.bedh.SendCommand("echo hi");
+    //Output: hi
+```
+   #### obedtwL.oBasic.bedh.Bedh(string[] args)
+   ```csharp
+    //Old API 
+    obedtwL.oBasic.bedh.Bedh();
+    //Bind Console into 
 ```
