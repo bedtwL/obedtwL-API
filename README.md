@@ -45,13 +45,13 @@ Waring: dll-pack.zip will not update to newest dll and i dont own the dll in dll
    Write Colored Line
       
    ```csharp
-   obedtwLAPI.oConsole.WriteColorLine("This is Message have color",("{Message}",ConsoleColor.Red),("{color}",ConsoleColor.Blue))
+   obedtwLAPI.oConsole.WriteColorLine("This is Message have color",("{Message}",ConsoleColor.Red),("{color}",ConsoleColor.Blue));
    //Make "Message" text Color into Red and make "color" text into blue
 ```
    #### obedtwLAPI.oConsole.WriteColor(string text,parms (string str,ConsoleColor color))
    Write Colored Text
       
    ```csharp
-   obedtwLAPI.oConsole.WriteColor("This is Message have color",("{Message}",ConsoleColor.Red),("{color}",ConsoleColor.Blue))
+   obedtwLAPI.oConsole.WriteColor("This is Message have color",("{Message}",ConsoleColor.Red),("{color}",ConsoleColor.Blue));
    //Make "Message" text Color into Red and make "color" text into blue
 ```
