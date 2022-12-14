@@ -132,7 +132,7 @@ Waring: [dll-pack.zip](https://github.com/bedtwL/obedtwL-API/files/10050785/dll-
  ``` 
 #### obedtwLAPI.oConverter.Blur(Bitmap image, Int32 blurSize)
    ```csharp
-   obedtwLAPI.oConverter.Blur(new Bitmap("C:\Image\Your-Image-Path.png"), 10); //Get Bitmap with Blur Size 10
+   obedtwLAPI.oConverter.Blur(new Bitmap(@"C:\Image\Your-Image-Path.png"), 10); //Get Bitmap with Blur Size 10
 ``` 
 #### obedtwLAPI.oConverter.ToFriendllyTime(long num)
    ```csharp
