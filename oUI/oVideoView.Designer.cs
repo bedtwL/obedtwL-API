@@ -45,7 +45,7 @@
             this.oVideoViewCore.Spu = -1;
             this.oVideoViewCore.TabIndex = 0;
             this.oVideoViewCore.Text = "vlcControl1";
-            this.oVideoViewCore.VlcLibDirectory = vlclib;
+            this.oVideoViewCore.VlcLibDirectory =null;
             this.oVideoViewCore.VlcMediaplayerOptions = null;
             this.oVideoViewCore.MediaChanged += new System.EventHandler<Vlc.DotNet.Core.VlcMediaPlayerMediaChangedEventArgs>(this.oVideoViewCore_MediaChanged);
             this.oVideoViewCore.TimeChanged += new System.EventHandler<Vlc.DotNet.Core.VlcMediaPlayerTimeChangedEventArgs>(this.oVideoViewCore_TimeChanged);
@@ -60,7 +60,7 @@
             this.Name = "oVideoView";
             this.Size = new System.Drawing.Size(325, 300);
             this.Load += new System.EventHandler(this.oVideoView_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.oVideoViewCore)).EndInit();
+            
             this.ResumeLayout(false);
 
         }

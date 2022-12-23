@@ -3,10 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using YoutubeExplode;
+using YoutubeExplode.Common;
 using YoutubeExplode.Videos;
 
 namespace obedtwLAPI.oUI
@@ -16,20 +19,22 @@ namespace obedtwLAPI.oUI
     /// </summary>
     public partial class Video : UserControl
     {
-        string _URL;
+        public string URL;
+      
         /// <summary>
         /// Video Control
         /// </summary>
         /// <param name="VideoTitle"></param>
         /// <param name="URL"></param>
         /// <param name="IMGURL"></param>
-        public Video(string VideoTitle,string URL,string IMGURL)
+        public Video()
         {
-            _URL = URL;
+           
            
             InitializeComponent();
-            Label1.Text = VideoTitle;
-            try { YoutubeExplode.Videos.VideoId.Parse(_URL); } catch  { if (System.IO.File.Exists(_URL)) { } else { } }
+
+            
+            try { var youtube = new YoutubeClient(); Label1.Text = youtube.Videos.GetAsync(URL).Result.Title; PictureBox1.LoadAsync(youtube.Videos.GetAsync(URL).Result.Thumbnails.TryGetWithHighestResolution().Url); } catch  { if (System.IO.File.Exists(URL)) { Label1.Text = Path.GetFileNameWithoutExtension(URL);PictureBox1.Image=oFile.GetThumbnail(URL); PictureBox1.LoadAsync(); } else { Label1.Text = Path.GetFileNameWithoutExtension(URL); } }
 
 
             }

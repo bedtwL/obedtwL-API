@@ -59,7 +59,7 @@
     <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <DebugType>full</DebugType>
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <LangVersion>7.3</LangVersion>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>true</Prefer32Bit>
@@ -88,6 +88,7 @@
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <Optimize>true</Optimize>
     <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+    <RegisterForComInterop>true</RegisterForComInterop>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>bin\x86\Release\</OutputPath>
@@ -169,6 +170,9 @@
     <Compile Include="oBasic\oTask.cs" />
     <Compile Include="oPlugin\oPlugin.cs" />
     <Compile Include="oPlugin\Video.cs" />
+    <Compile Include="oUI\BorderlessButton.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="oUI\ErrorReporter.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -181,6 +185,12 @@
     </Compile>
     <Compile Include="oUI\oVideoView.Designer.cs">
       <DependentUpon>oVideoView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="oUI\oVideoViewControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="oUI\oVideoViewControl.Designer.cs">
+      <DependentUpon>oVideoViewControl.cs</DependentUpon>
     </Compile>
     <Compile Include="oUI\Video.cs">
       <SubType>UserControl</SubType>
@@ -204,6 +214,9 @@
     <EmbeddedResource Include="oUI\oVideoView.resx">
       <DependentUpon>oVideoView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="oUI\oVideoViewControl.resx">
+      <DependentUpon>oVideoViewControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="oUI\Video.resx">
       <DependentUpon>Video.cs</DependentUpon>
     </EmbeddedResource>
@@ -218,6 +231,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -244,6 +258,15 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obedtwLAPI.oUI.oVideoViewControl.StopIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obedtwLAPI.oUI.oVideoViewControl.PlayIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obedtwLAPI.oUI.oVideoViewControl.PauseIcon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

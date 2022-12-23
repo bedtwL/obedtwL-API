@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using YoutubeExplode;
+using YoutubeExplode.Common;
 using YoutubeExplode.Videos.Streams;
 
 namespace obedtwLAPI.oWeb
@@ -92,6 +93,47 @@ namespace obedtwLAPI.oWeb
             oWeb.Download(GetCaptionURL(YoutubeURL, CaptionCode), FileName);
 
         }
-        
+        /// <summary>
+        /// Get Video Thumbnail
+        /// </summary>
+        /// <param name="URL"></param>
+        /// <returns></returns>
+        public string GetThumbnailURL(string URL)
+        {
+            var Youtube = new YoutubeClient();
+            return Youtube.Videos.GetAsync(URL).Result.Thumbnails.TryGetWithHighestResolution().Url;
+        }
+        /// <summary>
+        /// Get User Image by URL
+        /// </summary>
+        /// <param name="Url"></param>
+        /// <returns></returns>
+        public string GetUserImage(string Url)
+        {
+            var youtube = new YoutubeClient();
+            try { return youtube.Channels.GetAsync(youtube.Videos.GetAsync(Url).Result.Author.ChannelUrl).Result.Thumbnails.TryGetWithHighestResolution().Url; }
+            catch { return youtube.Channels.GetAsync(Url).Result.Thumbnails.TryGetWithHighestResolution().Url; }
+            
+        }
+        /// <summary>
+        /// Get Channel Username by URL
+        /// </summary>
+        /// <param name="Url"></param>
+        /// <returns></returns>
+        public string GetUserName(string Url)
+        {
+            var youtube = new YoutubeClient();
+            return youtube.Videos.GetAsync(Url).Result.Author.ChannelTitle;
+        }
+        /// <summary>
+        /// Get Video MetaData
+        /// </summary>
+        /// <param name="URL"></param>
+        /// <returns></returns>
+        public YoutubeExplode.Videos.Video GetVideoMetaData(string URL)
+        {
+            var Youtube = new YoutubeClient();
+            return Youtube.Videos.GetAsync(URL).Result;
+        }
     }
 }
