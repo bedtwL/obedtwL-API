@@ -1,8 +1,9 @@
 # obedtwL API
 
 [![Discord](https://img.shields.io/discord/1043885421303709831?label=Discord)](https://discord.gg/jAcdpzwW7d)
-[![Release](https://img.shields.io/github/v/release/bedneednoob/obedtwL-api?include_prereleases)](https://github.com/BedNeedNoob/obedtwL-API/releases)
-A API for C# Developer
+[![Release](https://img.shields.io/github/v/release/bedtwL/obedtwL-api?include_prereleases)](https://github.com/BedNeedNoob/obedtwL-API/releases)
+A API development by a 12 years old C# Developer
+
 | API Version |  Release/Prerelease Code  |
 | ----------| ----------------------------------------|
 | v0.0.0.1 ~ v0.0.0.1360| Console API Beta Release|
@@ -14,14 +15,14 @@ A API for C# Developer
 ## Reqiredment
 
 This is ONLY reqired if the class that you want to use is in below
-You can download all dll from [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)| in below
-Waring: [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)| will not update to newest dll and i dont own the dll in [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)
-[Download Dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)
+You can download all dll from [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip) in below
+Waring: [dll-pack.zip](https://github.com/bedtwL/obedtwL-API/files/10050785/dll-pack.zip) will not update to newest dll and i dont own the dll in [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)
+[Download Dll-pack.zip](https://github.com/bedtwL/obedtwL-API/files/10050785/dll-pack.zip)
 
 | Addon Make What class work |  Link   |
 | ----------| ------------------------------------------------|
 | obedtwLAPI.oPlugins.Video   | https://www.nuget.org/packages/YoutubeExplode|
-| obedtwLAPI.oUI.oVideoView     | https://www.nuget.org/packages/Vlc.DotNet.Forms And some setup (this dll is not setup in [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785/dll-pack.zip)|
+| obedtwLAPI.oUI.oVideoView     | https://www.nuget.org/packages/Vlc.DotNet.Forms And some setup (this dll is not setup in [dll-pack.zip](https://github.com/bedtwL/obedtwL-API/files/10050785/dll-pack.zip)|
 | obedtwLAPI.oWeb.Youtube   | https://www.nuget.org/packages/YoutubeExplode|
 | obedtwLAPI.oWeb.YoutubeBrowser   | https://www.nuget.org/packages/Microsoft.Web.WebView2 and https://www.nuget.org/packages/YoutubeExplode|
 
@@ -29,23 +30,23 @@ Waring: [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785
 | ----------| ------------------------------------------------|
 | obedtwLAPI.oUI.Video | https://www.nuget.org/packages/YoutubeExplode|
 
- ## Beta Class
+## Beta Class
  | Beta Class Name | Issue |
  |---------|------------------|
  | obedtwLAPI.Speech.SpeechAPI | Some thing may working weird |
 
- ## API Usage:
+## API Usage:
  
    This Only Show the most Useful Usage
    
-   ### obedtwLAPI.Info Class
+### obedtwLAPI.Info Class
    
-   #### obedtwLAPI.Info.ShowInfo()
+#### obedtwLAPI.Info.ShowInfo()
    ```csharp
    obedtwLAPI.Info.ShowInfo(); //Shows up API & System infomation 
 ```
    ### obedtwLAPI.oWeb.Youtube Class
-   Please Check https://github.com/BedNeedNoob/obedtwL-API/#reqiredment , This class Have Reqiredment!
+   Please Check https://github.com/bedtwL/obedtwL-API/#reqiredment , This class Have Reqiredment!
    #### obedtwLAPI.oWeb.Youtube.DownloadVideoAsync(string YoutubeURL,string FileName)
    Download Youtube Video
    ```csharp
@@ -54,7 +55,7 @@ Waring: [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785
    //Youtube Video URL is the url that you want to get download url
    //Video.mp4 is the filename that you want to save
 ```
-   #### obedtwLAPI.oWeb.Youtube.DownloadVideoAsync(string YoutubeURL,string FileName)
+#### obedtwLAPI.oWeb.Youtube.DownloadVideoAsync(string YoutubeURL,string FileName)
    Download Youtube Video Async
    ```csharp
    var Youtube = new obedtwLAPI.oWeb.Youtube();
@@ -62,8 +63,8 @@ Waring: [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785
    //Youtube Video URL is the url that you want to get download url
    //Video.mp4 is the filename that you want to save
 ```
-   ### obedtwLAPI.oWeb.YoutubeBrowser Class
-   Please Check https://github.com/BedNeedNoob/obedtwL-API/#reqiredment , This class Have Reqiredment!
+### obedtwLAPI.oWeb.YoutubeBrowser Class
+   Please Check https://github.com/bedtwL/obedtwL-API/#reqiredment , This class Have Reqiredment!
    ```csharp
    var YoutubeBrowser = new obedtwLAPI.oWeb.YoutubeBrowser();
    YoutubeBrowser.ShowDialog();
@@ -75,31 +76,31 @@ Waring: [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785
    
 ```
    
-   ### obedtwLAPI.oConsole Class
+### obedtwLAPI.oConsole Class
    
-   #### obedtwLAPI.oConsole.WriteColorLine(string text,parms (string str,ConsoleColor color))
+#### obedtwLAPI.oConsole.WriteColorLine(string text,parms (string str,ConsoleColor color))
    Write Colored Line
       
    ```csharp
     obedtwLAPI.oConsole.WriteColorLine("This is Message have color",("{Message}",ConsoleColor.Red),("{color}",ConsoleColor.Blue));
     //Make "Message" text Color into Red and make "color" text into blue
 ```
-   #### obedtwLAPI.oConsole.WriteColor(string text,parms (string str,ConsoleColor color))
+#### obedtwLAPI.oConsole.WriteColor(string text,parms (string str,ConsoleColor color))
    Write Colored Text
       
   ```csharp
     obedtwLAPI.oConsole.WriteColor("This is Message have color",("{Message}",ConsoleColor.Red),("{color}",ConsoleColor.Blue));
     //Make "Message" text Color into Red and make "color" text into blue
 ```
-   ### obedtwLAPI.oBasic.bedh Class
+### obedtwLAPI.oBasic.bedh Class
    
-   #### obedtwL.oBasic.bedh.SendCommand(string terminal_command)
+#### obedtwL.oBasic.bedh.SendCommand(string terminal_command)
 ```csharp
     //Old API 
     obedtwL.oBasic.bedh.SendCommand("echo hi");
     //Output: hi
 ```
-   #### obedtwL.oBasic.bedh.Bedh(string[] args)
+#### obedtwL.oBasic.bedh.Bedh(string[] args)
 ```csharp
     //Old API 
     //Setting Args for bedh Console
@@ -107,9 +108,9 @@ Waring: [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785
     obedtwL.oBasic.bedh.Bedh(settings);
     //Bind Console into 
 ```
-   ### obedtwLAPI.Speech.SpeechAPI Class
+### obedtwLAPI.Speech.SpeechAPI Class
    
-   #### obedtwLAPI.Speech.SpeechAPI.Said(string text)
+#### obedtwLAPI.Speech.SpeechAPI.Said(string text)
    ```csharp
     //Init API
     var SpeechAPI = new obedtwLAPI.Speech.SpeechAPI();
@@ -117,9 +118,9 @@ Waring: [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785
     //Say HI Sound
  ```
  
-   ### obedtwLAPI.oConverter Class
+### obedtwLAPI.oConverter Class
    
-   #### obedtwLAPI.oConverter.BoolToString(bool Bool)
+#### obedtwLAPI.oConverter.BoolToString(bool Bool)
    ```csharp
    
     obedtwLAPI.oConverter.BoolToString(true)
@@ -129,11 +130,11 @@ Waring: [dll-pack.zip](https://github.com/BedNeedNoob/obedtwL-API/files/10050785
     obedtwLAPI.oConverter.BoolToString(null)
     //Return "Unknow"
  ``` 
-   #### obedtwLAPI.oConverter.Blur(Bitmap image, Int32 blurSize)
+#### obedtwLAPI.oConverter.Blur(Bitmap image, Int32 blurSize)
    ```csharp
-   obedtwLAPI.oConverter.Blur(new Bitmap("C:\Image\Your-Image-Path.png"), 10); //Get Bitmap with Blur Size 10
+   obedtwLAPI.oConverter.Blur(new Bitmap(@"C:\Image\Your-Image-Path.png"), 10); //Get Bitmap with Blur Size 10
 ``` 
-   #### obedtwLAPI.oConverter.ToFriendllyTime(long num)
+#### obedtwLAPI.oConverter.ToFriendllyTime(long num)
    ```csharp
    obedtwLAPI.oConverter.ToFriendllyTime(60000); //Return: "01:00"
 ``` 
