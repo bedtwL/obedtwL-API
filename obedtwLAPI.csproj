@@ -170,6 +170,12 @@
     <Compile Include="oBasic\oTask.cs" />
     <Compile Include="oPlugin\oPlugin.cs" />
     <Compile Include="oPlugin\Video.cs" />
+    <Compile Include="oUI\BetterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="oUI\BetterLabbel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="oUI\BorderlessButton.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -192,6 +198,7 @@
     <Compile Include="oUI\oVideoViewControl.Designer.cs">
       <DependentUpon>oVideoViewControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="oUI\UIAffect.cs" />
     <Compile Include="oUI\Video.cs">
       <SubType>UserControl</SubType>
     </Compile>
